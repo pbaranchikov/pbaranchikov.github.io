@@ -1,0 +1,94 @@
+--- checkstyle-result-orig.xml	2015-10-16 22:12:48.000000000 +0300
++++ checkstyle-result-patched.xml	2015-10-16 22:32:25.000000000 +0300
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<checkstyle version="6.11.2">
++<checkstyle version="6.12-SNAPSHOT">
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-gwt/test/com/google/common/testing/FakeTickerTest_gwt.java">
+ <error line="16" severity="error" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="17" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+@@ -1253,6 +1253,7 @@
+ <error line="336" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="339" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="351" severity="error" message="&apos;VARIABLE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="534" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="537" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="540" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="570" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+@@ -1689,6 +1690,7 @@
+ <error line="127" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="415" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="416" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="461" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-testlib/test/com/google/common/testing/EquivalenceTesterTest.java">
+ </file>
+@@ -1698,6 +1700,10 @@
+ <error line="112" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-testlib/test/com/google/common/testing/ClassSanityTesterTest.java">
++<error line="65" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="69" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="73" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="77" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="166" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="1118" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="1193" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+@@ -2775,6 +2781,8 @@
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava/src/com/google/common/io/LittleEndianDataInputStream.java">
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava/src/com/google/common/io/ByteStreams.java">
++<error line="507" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="511" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava/src/com/google/common/util/concurrent/UncheckedExecutionException.java">
+ </file>
+@@ -3111,6 +3119,7 @@
+ <error line="370" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="373" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="385" severity="error" message="&apos;VARIABLE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="568" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="571" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="574" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="604" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+@@ -4176,6 +4185,7 @@
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/util/concurrent/ServiceManagerTest.java">
+ <error line="16" severity="error" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="391" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="459" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/util/concurrent/AbstractListeningExecutorServiceTest.java">
+ </file>
+@@ -4275,6 +4285,7 @@
+ <error line="942" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/util/concurrent/WrappingExecutorServiceTest.java">
++<error line="47" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/util/concurrent/ServiceTest.java">
+ </file>
+@@ -4731,6 +4742,8 @@
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/eventbus/AsyncEventBusTest.java">
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/eventbus/EventSubscriberTest.java">
++<error line="184" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="192" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/eventbus/StringCatcher.java">
+ </file>
+@@ -4754,6 +4767,7 @@
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/escape/CharEscaperBuilderTest.java">
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/escape/UnicodeEscaperTest.java">
++<error line="168" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/test/com/google/common/cache/AbstractCacheTest.java">
+ </file>
+@@ -4885,6 +4899,7 @@
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/benchmark/com/google/common/util/concurrent/ExecutionListBenchmark.java">
+ <error line="54" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="56" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ <error line="510" severity="error" message="&apos;VARIABLE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+ </file>
+ <file name="/home/shared/home/pavel/apps/checkstyle/contribution/checkstyle-tester/src/main/java/guava/guava-tests/benchmark/com/google/common/util/concurrent/MonitorBenchmark.java">
